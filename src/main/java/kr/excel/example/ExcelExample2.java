@@ -14,6 +14,7 @@ public class ExcelExample2 {
         try {
 
             FileInputStream file = new FileInputStream(new File("example.xlsx"));
+
             Workbook workbook = WorkbookFactory.create(file);
 
             Sheet sheet = workbook.getSheetAt(0);
